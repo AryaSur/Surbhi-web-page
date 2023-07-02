@@ -1,0 +1,109 @@
+
+            body {
+                text-align: center;
+                background-image: url("background.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            h1 {
+                text-align: center;
+                text-shadow: white;
+                color: white;
+                font-size: 50px
+            }
+       
+            h2 {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 30px;
+                color: white;
+                text-align: center;
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: none;
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+                font-size: larger;
+            }
+
+            li {
+                float: left;
+            }
+              
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+              
+            li a:hover {
+                background-color: rosybrown;
+            }
+
+            
+            #about-me-section {
+                display: flex;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: larger;
+                color: royalblue;
+            }
+
+
+            #about-me-section p span {
+                margin-bottom: 50px;
+            }
+
+            #life-in-IITH{
+                display: flex;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: larger;
+                color: white;
+            }
+
+            #life-in-IITH p span {
+                margin-bottom: auto;
+            }
+
+            #life-in-IITH img{
+                max-width: 500px;
+                height: 500px;
+            }
+
+            #life-in-IITH video{
+                max-width: 500px;
+                height: 500px;
+            }
+
+            #where-to-find-me {
+                text-align: center;
+                text-decoration: solid;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: large;
+                color: white;
+            }
+
+            #where-to-find-me p {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #where-to-find-me p span {
+                margin-bottom: 10px;
+            }
+
+            #glimpse-of-me img {
+                max-width: 500px;
+                height: auto;
+            }
